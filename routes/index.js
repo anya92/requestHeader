@@ -5,7 +5,7 @@ var requestIp = require('request-ip');
 var parser = require('ua-parser-js');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('index', { title: 'API Request Header Parser Microservice' });
 });
 router.get('/whoami', function(req, res) {
