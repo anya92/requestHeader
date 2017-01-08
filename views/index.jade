@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 API REQUEST HEADER PARSER MICROSERVICE
+  h2 User story:
+  p  1. I can get the IP address, language and operating system for my browser.
+  h2 Example Output:
+  code {"ip_address": 90.192.29.8, "language": pl_PL, "operating_system" : "Windows 8"}
+  br
+  br
+  a(href="/whoami")
+   button GET
+   
